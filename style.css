@@ -49,10 +49,16 @@ body {
 .container .center .choose {
     height: 175px;
     width: 550px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 2.2rem;
+}
+.container .center .choose .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .container .center .choose .text {
     color: rgba(255, 212, 212, 0.913);
@@ -64,10 +70,42 @@ body {
     color: rgba(255, 255, 255, 0.913);
     font-weight: bold;
 }
+input[type="radio"] {
+    accent-color: red;
+}
+#confirm {
+    width: 100px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0;
+    border: solid;
+    border-radius: 12px;
+    border-color: navy;
+    background-color: rgb(142, 202, 202);
+    color: rgb(51, 32, 32);
+    margin-left: 230px;
+    margin-top: 0;
+}
 .container .center .result {
     height: 175px;
     width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.container .center .result .text {
     border: 2px solid black;
+    color: rgb(14, 8, 30);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.container .center .result .score {
+    width: 550px;
+    height: 75px;
+    border: 2px solid black;
+    margin-bottom: 20px;
 }
 
 .footer {
