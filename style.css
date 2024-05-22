@@ -40,7 +40,36 @@ body {
     height: 350px;
     width: 550px;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #4c72fd;
+    padding: 0 2rem;
 }
+.container .center .choose {
+    height: 175px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.container .center .choose .text {
+    color: rgba(255, 212, 212, 0.913);
+    font-weight: 500;
+    font-size: 25px;
+}
+.container .center .choose .radio {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.913);
+    font-weight: bold;
+}
+.container .center .result {
+    height: 175px;
+    width: 550px;
+    border: 2px solid black;
+}
+
 .footer {
     height: 85px;
     background-color: #1F2937;
