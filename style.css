@@ -95,7 +95,6 @@ input[type="radio"] {
     gap: 30px;
 }
 .container .center .result .text {
-    border: 2px solid black;
     color: rgb(14, 8, 30);
     font-size: 25px;
     font-weight: bold;
@@ -106,8 +105,30 @@ input[type="radio"] {
     height: 75px;
     border: 2px solid black;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
-
+.container .center .result .score .you {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: 5px solid black;
+    width: 275px;
+    gap: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.container .center .result .score .computer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 275px;
+    gap: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
 .footer {
     height: 85px;
     background-color: #1F2937;
