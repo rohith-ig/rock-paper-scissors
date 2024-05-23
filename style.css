@@ -30,6 +30,10 @@ body {
     color: navy;
     font-weight: bold;
 }
+.header a {
+    color: navy;
+    text-decoration: none;
+}
 .container {
     height: 564.9px;
     display: flex;
