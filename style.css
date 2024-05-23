@@ -31,7 +31,7 @@ body {
     font-weight: bold;
 }
 .container {
-    height: 670px;
+    height: 564.9px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,9 +103,9 @@ input[type="radio"] {
 }
 .container .center .result .score {
     width: 550px;
-    height: 75px;
+    height: 80px;
     border: 2px solid black;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
 }
