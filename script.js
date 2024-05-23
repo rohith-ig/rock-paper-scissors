@@ -5,7 +5,8 @@ function selected() {
     else if (document.getElementById("paper").checked) {
         return "Paper";
     }
-    else return "Scissors";
+    else if (document.getElementById("scissors").checked) return "Scissors";
+    else return "NULL";
 }
 function random() {
     const val = ["Rock","Scissors","Paper"];
